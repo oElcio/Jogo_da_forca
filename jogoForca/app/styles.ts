@@ -1,0 +1,63 @@
+import { StyleSheet } from "react-native";
+
+export const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: "#1e1e2e",
+    alignItems: "center",
+    justifyContent: "center",
+    padding: 20,
+  },
+  textoPalavra: {
+    fontSize: 28,
+    fontWeight: "bold",
+    color: "#f8f8f2",
+    textTransform: "uppercase",
+    letterSpacing: 2,
+  },
+  teclado: {
+    backgroundColor: "#2d2d3a",
+    padding: 16,
+    alignSelf: "center",
+    flexDirection: "row",
+    flexWrap: "wrap",
+    justifyContent: "center",
+    marginVertical: 16,
+    borderRadius: 12,
+    gap: 8,
+  },
+  botaoUsado: {
+    backgroundColor: "#44475a", 
+    opacity: 0.7,
+  },
+  palavra: {
+    flexDirection: "row",
+    justifyContent: "center",
+    gap: 12,
+    paddingVertical: 16,
+  },
+forca: {
+  backgroundColor: "#282a36",
+  padding: 20,
+  borderRadius: 16,
+  height: 220, 
+  justifyContent: "center",
+  alignItems: "center",
+  marginVertical: 16,
+  width: "90%",
+  shadowColor: "#000",
+  shadowOffset: { width: 0, height: 4 },
+  shadowOpacity: 0.2,
+  shadowRadius: 6,
+  elevation: 4,
+},
+  textoResultado: {
+    fontSize: 22,
+    fontWeight: "bold",
+    color: "#ff79c6",
+    textAlign: "center",
+    marginBottom: 16,
+    textTransform: "uppercase",
+    letterSpacing: 1.2,
+  },
+});
