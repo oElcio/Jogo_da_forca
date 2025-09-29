@@ -45,17 +45,18 @@
       "typedRoutes": true,
       "reactCompiler": true
     },
-    "extra": {
-      "router": {},
-      "eas": {
-        "projectId": "f19d2b3d-ea48-4bf9-9402-694285a2c276"
-      }
-    },
     "runtimeVersion": {
       "policy": "appVersion"
     },
     "updates": {
-      "url": "https://u.expo.dev/f19d2b3d-ea48-4bf9-9402-694285a2c276"
-    }
+      "url": "https://u.expo.dev/3b6e32c2-6e04-4685-9609-ba2d91cb7b23"
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "3b6e32c2-6e04-4685-9609-ba2d91cb7b23"
+      }
+    },
+    "owner": "elcioj"
   }
 }
